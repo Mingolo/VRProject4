@@ -1,0 +1,386 @@
+fileFormatVersion: 2
+guid: ac3efdb147d6ac241ada10571e7983e7
+timeCreated: 1460435555
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 29101217affec0b57f81da2b5856fd0d
+  longitude: 2.333
+  latitude: 48.867
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: -0.7516342, y: 1.1797554, z: -2.8362598}
+      lookAt: {x: -0.013444574, y: 0.99248254, z: -0.7030017}
+      up: {x: 0.027036378, y: 0.9965764, z: 0.07813112}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Composant#1
+    100002: Composant#109
+    100004: Composant#110
+    100006: Composant#125
+    100008: Composant#126
+    100010: Composant#127
+    100012: Composant#128
+    100014: Composant#129
+    100016: Composant#135
+    100018: Composant#135 1
+    100020: Composant#136
+    100022: Composant#136 1
+    100024: Composant#193
+    100026: Composant#193 1
+    100028: Composant#2
+    100030: Composant#21
+    100032: Composant#21 1
+    100034: Composant#27
+    100036: Composant#27 1
+    100038: Composant#28
+    100040: Composant#28 1
+    100042: Composant#29
+    100044: Composant#29 1
+    100046: Composant#30
+    100048: Composant#30 1
+    100050: Composant#31
+    100052: Composant#31 1
+    100054: Composant#32
+    100056: Composant#32 1
+    100058: Composant#33
+    100060: Composant#33 1
+    100062: Composant#39
+    100064: Composant#39 1
+    100066: Composant#53
+    100068: Composant#53 1
+    100070: Composant#56
+    100072: Composant#57
+    100074: Composant#58
+    100076: Composant#64
+    100078: Composant#65
+    100080: Composant#66
+    100082: Composant#67
+    100084: Composant#72
+    100086: Composant#76
+    100088: Composant#76 1
+    100090: Composant#77
+    100092: Composant#77 1
+    100094: Composant#82
+    100096: Composant#82 1
+    100098: Composant#83
+    100100: Composant#83 1
+    100102: Composant#85
+    100104: Composant#85 1
+    100106: Composant#86
+    100108: Composant#86 1
+    100110: Composant#93
+    100112: Composant#93 1
+    100114: Composant#94
+    100116: Composant#94 1
+    100118: Dashboard Avantis
+    100120: Dashboard Avantis V2
+    100122: door_lf_ok
+    100124: door_lf_ok 1
+    100126: //RootNode
+    100128: Group 103
+    100130: Levier de vitesses
+    100132: Seat 5
+    100134: Seat 5 1
+    100136: Seat 6
+    400000: Composant#1
+    400002: Composant#109
+    400004: Composant#110
+    400006: Composant#125
+    400008: Composant#126
+    400010: Composant#127
+    400012: Composant#128
+    400014: Composant#129
+    400016: Composant#135
+    400018: Composant#135 1
+    400020: Composant#136
+    400022: Composant#136 1
+    400024: Composant#193
+    400026: Composant#193 1
+    400028: Composant#2
+    400030: Composant#21
+    400032: Composant#21 1
+    400034: Composant#27
+    400036: Composant#27 1
+    400038: Composant#28
+    400040: Composant#28 1
+    400042: Composant#29
+    400044: Composant#29 1
+    400046: Composant#30
+    400048: Composant#30 1
+    400050: Composant#31
+    400052: Composant#31 1
+    400054: Composant#32
+    400056: Composant#32 1
+    400058: Composant#33
+    400060: Composant#33 1
+    400062: Composant#39
+    400064: Composant#39 1
+    400066: Composant#53
+    400068: Composant#53 1
+    400070: Composant#56
+    400072: Composant#57
+    400074: Composant#58
+    400076: Composant#64
+    400078: Composant#65
+    400080: Composant#66
+    400082: Composant#67
+    400084: Composant#72
+    400086: Composant#76
+    400088: Composant#76 1
+    400090: Composant#77
+    400092: Composant#77 1
+    400094: Composant#82
+    400096: Composant#82 1
+    400098: Composant#83
+    400100: Composant#83 1
+    400102: Composant#85
+    400104: Composant#85 1
+    400106: Composant#86
+    400108: Composant#86 1
+    400110: Composant#93
+    400112: Composant#93 1
+    400114: Composant#94
+    400116: Composant#94 1
+    400118: Dashboard Avantis
+    400120: Dashboard Avantis V2
+    400122: door_lf_ok
+    400124: door_lf_ok 1
+    400126: //RootNode
+    400128: Group 103
+    400130: Levier de vitesses
+    400132: Seat 5
+    400134: Seat 5 1
+    400136: Seat 6
+    2300000: Composant#1
+    2300002: Composant#109
+    2300004: Composant#110
+    2300006: Composant#125
+    2300008: Composant#126
+    2300010: Composant#127
+    2300012: Composant#128
+    2300014: Composant#129
+    2300016: Composant#135
+    2300018: Composant#135 1
+    2300020: Composant#136
+    2300022: Composant#136 1
+    2300024: Composant#193
+    2300026: Composant#193 1
+    2300028: Composant#2
+    2300030: Composant#21
+    2300032: Composant#21 1
+    2300034: Composant#27
+    2300036: Composant#27 1
+    2300038: Composant#28
+    2300040: Composant#28 1
+    2300042: Composant#29
+    2300044: Composant#29 1
+    2300046: Composant#30
+    2300048: Composant#30 1
+    2300050: Composant#31
+    2300052: Composant#31 1
+    2300054: Composant#32
+    2300056: Composant#32 1
+    2300058: Composant#33
+    2300060: Composant#33 1
+    2300062: Composant#39
+    2300064: Composant#39 1
+    2300066: Composant#53
+    2300068: Composant#53 1
+    2300070: Composant#56
+    2300072: Composant#57
+    2300074: Composant#58
+    2300076: Composant#64
+    2300078: Composant#65
+    2300080: Composant#66
+    2300082: Composant#67
+    2300084: Composant#72
+    2300086: Composant#76
+    2300088: Composant#76 1
+    2300090: Composant#77
+    2300092: Composant#77 1
+    2300094: Composant#82
+    2300096: Composant#82 1
+    2300098: Composant#83
+    2300100: Composant#83 1
+    2300102: Composant#86
+    2300104: Composant#86 1
+    2300106: Group 103
+    2300108: Levier de vitesses
+    2300110: Seat 5
+    2300112: Seat 5 1
+    2300114: Seat 6
+    3300000: Composant#1
+    3300002: Composant#109
+    3300004: Composant#110
+    3300006: Composant#125
+    3300008: Composant#126
+    3300010: Composant#127
+    3300012: Composant#128
+    3300014: Composant#129
+    3300016: Composant#135
+    3300018: Composant#135 1
+    3300020: Composant#136
+    3300022: Composant#136 1
+    3300024: Composant#193
+    3300026: Composant#193 1
+    3300028: Composant#2
+    3300030: Composant#21
+    3300032: Composant#21 1
+    3300034: Composant#27
+    3300036: Composant#27 1
+    3300038: Composant#28
+    3300040: Composant#28 1
+    3300042: Composant#29
+    3300044: Composant#29 1
+    3300046: Composant#30
+    3300048: Composant#30 1
+    3300050: Composant#31
+    3300052: Composant#31 1
+    3300054: Composant#32
+    3300056: Composant#32 1
+    3300058: Composant#33
+    3300060: Composant#33 1
+    3300062: Composant#39
+    3300064: Composant#39 1
+    3300066: Composant#53
+    3300068: Composant#53 1
+    3300070: Composant#56
+    3300072: Composant#57
+    3300074: Composant#58
+    3300076: Composant#64
+    3300078: Composant#65
+    3300080: Composant#66
+    3300082: Composant#67
+    3300084: Composant#72
+    3300086: Composant#76
+    3300088: Composant#76 1
+    3300090: Composant#77
+    3300092: Composant#77 1
+    3300094: Composant#82
+    3300096: Composant#82 1
+    3300098: Composant#83
+    3300100: Composant#83 1
+    3300102: Composant#86
+    3300104: Composant#86 1
+    3300106: Group 103
+    3300108: Levier de vitesses
+    3300110: Seat 5
+    3300112: Seat 5 1
+    3300114: Seat 6
+    4300000: Mesh Composant#72
+    4300002: Mesh Composant#27
+    4300004: Mesh Composant#125
+    4300006: Mesh Composant#126
+    4300008: Mesh Composant#127
+    4300010: Mesh Composant#32
+    4300012: Mesh Composant#31
+    4300014: Mesh Composant#83
+    4300016: Mesh Composant#77
+    4300018: Mesh Composant#136
+    4300020: Mesh Composant#135
+    4300022: Mesh Composant#193
+    4300024: Mesh Composant#21
+    4300026: Mesh Composant#30
+    4300028: Mesh Composant#29
+    4300030: Mesh Composant#82
+    4300032: Mesh Composant#76
+    4300034: Mesh Composant#33
+    4300036: Mesh Composant#28
+    4300038: Mesh Composant#53
+    4300040: Mesh Composant#128
+    4300042: Mesh Seat 6
+    4300044: Mesh Seat 5
+    4300046: Mesh Composant#129
+    4300048: Mesh Composant#67
+    4300050: Mesh Composant#39
+    4300052: Mesh Composant#32
+    4300054: Mesh Composant#83
+    4300056: Mesh Composant#1
+    4300058: Mesh Composant#86
+    4300060: Mesh Group 103
+    4300062: Mesh Composant#110
+    4300064: Mesh Composant#66
+    4300066: Mesh Levier de vitesses
+    4300068: Mesh Composant#109
+    4300070: Mesh Composant#56
+    4300072: Mesh Composant#57
+    4300074: Mesh Composant#58
+    4300076: Mesh Composant#64
+    4300078: Mesh Composant#65
+    4300080: Mesh Composant#2
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
