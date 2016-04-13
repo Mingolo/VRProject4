@@ -43,6 +43,7 @@ public class RayCaster : MonoBehaviour
 
     void ObjectIDAndSelect(GameObject go)
     {
+		/*
 
         if (lastObjectHit == null)                  //when we first see an object, set it up for selection
         {
@@ -75,6 +76,8 @@ public class RayCaster : MonoBehaviour
 
         lastObjectHit = go;
 
+		*/
+
 
 
 
@@ -83,7 +86,7 @@ public class RayCaster : MonoBehaviour
     void ObjectCheck(GameObject go)
     {
 
-
+		/*
         if (go != null &&
             isOff &&
             lastObjectHit.GetComponent<Glow>() != null &&
@@ -92,6 +95,7 @@ public class RayCaster : MonoBehaviour
             lastObjectHit.GetComponent<Glow>().isOver = false;
         }
         isOff = false;
+        */
 
     }
 
