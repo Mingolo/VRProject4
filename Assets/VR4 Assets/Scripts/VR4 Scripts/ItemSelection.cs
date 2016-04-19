@@ -7,6 +7,7 @@ using System.Collections;
 
 public class ItemSelection : MonoBehaviour
 {
+    public string lvlIndex;                   //change this in inspector to the correct scene you want to load up
     public bool isOver = false;
     public bool isSelected = false;
    // public Renderer[] renderers;
@@ -83,9 +84,9 @@ public class ItemSelection : MonoBehaviour
 
     }
 
-    void LoadCutScene(string lvlIndex)
+    void LoadCutScene()
     {
-        StartCoroutine(sceneMgr.LoadCutScene(lvlIndex));
+        StartCoroutine(sceneMgr.LoadCutScene(lvlIndex));                                                    //needs to be loaded in Inspector
     }
 
    
