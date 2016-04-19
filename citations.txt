@@ -14,3 +14,12 @@ https://3dwarehouse.sketchup.com/model.html?id=99c2cd504b508646aee554f9566360dd
 https://3dwarehouse.sketchup.com/model.html?id=f08410ad8898cc1cee582c2f8ed670e3
 https://3dwarehouse.sketchup.com/model.html?id=31d3113d9bf3eb1072c1a04cca722f61
 https://3dwarehouse.sketchup.com/model.html?id=d3251f54888544665f7fd774b0c44191
+
+pathing animation system by Pixelplacement
+http://itween.pixelplacement.com/index.php
+
+taxi driver humanoid model by Autodesk, Inc.
+https://charactergenerator.autodesk.com/
+
+stopped car model by internationalmapper
+https://3dwarehouse.sketchup.com/model.html?id=ubd3bb071-2d4b-45ea-80d9-0ff36bbf010c

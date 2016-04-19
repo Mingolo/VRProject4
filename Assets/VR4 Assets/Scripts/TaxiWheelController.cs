@@ -4,6 +4,8 @@ using System.Collections;
 public class TaxiWheelController : MonoBehaviour 
 {
 	public GameObject car;
+	public GameObject leftArm;
+	public GameObject rightArm;
 	public int speed;
 	public float maxRot;
 
