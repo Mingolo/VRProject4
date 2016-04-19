@@ -209,7 +209,7 @@ public class OVRPlayerController : MonoBehaviour
 		Vector3 predictedXZ = Vector3.Scale((Controller.transform.localPosition + moveDirection), new Vector3(1, 0, 1));
 
 		// Move contoller
-		Controller.Move(moveDirection);
+		//Controller.Move(moveDirection);
 
 		Vector3 actualXZ = Vector3.Scale(Controller.transform.localPosition, new Vector3(1, 0, 1));
 
@@ -303,6 +303,7 @@ public class OVRPlayerController : MonoBehaviour
 #if !UNITY_ANDROID || UNITY_EDITOR
 		if (!SkipMouseRotation)
 			euler.y += Input.GetAxis("Mouse X") * rotateInfluence * 3.25f;
+			euler.x += Input.GetAxis("Mouse Y") * rotateInfluence * -3.25f;
 #endif
 
 		moveInfluence = Acceleration * 0.1f * MoveScale * MoveScaleMultiplier;
