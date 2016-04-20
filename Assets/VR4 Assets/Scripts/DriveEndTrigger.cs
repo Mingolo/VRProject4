@@ -4,10 +4,12 @@ using System.Collections;
 public class DriveEndTrigger : MonoBehaviour 
 {
 	private bool triggered;
+	private DriveSceneController scene;
 
 	void Start()
 	{
 		triggered = false;
+		scene = GameObject.Find ("SceneMgr").GetComponent<DriveSceneController>();
 	}
 
 
@@ -16,14 +18,7 @@ public class DriveEndTrigger : MonoBehaviour
 		if (!triggered) 
 		{
 			triggered = true;
-			int crash = PlayerPrefs.GetInt ("Crash");
-
-			if (crash == 0)
-				Debug.Log ("Change to didn't crash scene.");
-			else if (crash == 1)
-				Debug.Log ("Change to CRASHED scene.");
-			else
-				Debug.Log ("Unknown scene!");
+			scene.changeScene = true;
 		}
 	}
 }

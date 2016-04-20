@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityStandardAssets.ImageEffects;
 
 namespace UnityStandardAssets.Vehicles.Car
 {
@@ -54,6 +55,7 @@ namespace UnityStandardAssets.Vehicles.Car
         public float MaxSpeed{get { return m_Topspeed; }}
         public float Revs { get; private set; }
         public float AccelInput { get; private set; }
+		public GameObject eye;
 
         // Use this for initialization
         private void Start()
@@ -65,6 +67,16 @@ namespace UnityStandardAssets.Vehicles.Car
                 m_WheelMeshLocalRotations[i] = m_WheelMeshes[i].transform.localRotation;
             }
             */
+
+			if (PlayerPrefs.GetInt ("IsDrunk") == 1) 						//		TURN ON DRUNK EFFECTS IF DRUNK
+			{
+				m_MaximumSteerAngle = 89;
+				m_SteerHelper = 0;
+				m_TractionControl = 0;
+				MotionBlur drunkVision = eye.GetComponent<MotionBlur>();
+				drunkVision.enabled = true;
+			}
+
             m_WheelColliders[0].attachedRigidbody.centerOfMass = m_CentreOfMassOffset;
 
             m_MaxHandbrakeTorque = float.MaxValue;
