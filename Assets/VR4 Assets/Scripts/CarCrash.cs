@@ -3,6 +3,7 @@ using System.Collections;
 
 public class CarCrash : MonoBehaviour 
 {
+	public AudioSource crashSound;
 	public int collisionSpeed;
 	public Light light1;
 	public Light light2;
@@ -21,6 +22,7 @@ public class CarCrash : MonoBehaviour
 		if (col.relativeVelocity.magnitude >= collisionSpeed) 
 		{
 			PlayerPrefs.SetInt("Crash", 1);
+			crashSound.Play ();
 			light1.enabled = false;
 			light2.enabled = false;
 			light3.enabled = false;
