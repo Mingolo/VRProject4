@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: aab66566c0ff4bf49a5959de350c710e
+timeCreated: 1461620931
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 7cb607312235edff599a6220212e27b2
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 4.9302454, y: 0.3764841, z: 0.6792795}
+      lookAt: {x: 1.7448382, y: 0.28419816, z: 0.71081346}
+      up: {x: -0.028956488, y: 0.9995807, z: 0.00028665471}
+      fov: 40
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: beer
+    100002: //RootNode
+    100004: Group 27
+    100006: handle
+    100008: Head
+    100010: Image 2
+    100012: mug
+    100014: mugCutOut
+    100016: mugCutOut 1
+    100018: mugCutOut 2
+    100020: mugCutOut 3
+    100022: mugCutOut 4
+    100024: mugCutOut 5
+    100026: mugCutOut 6
+    100028: mugCutOut 7
+    100030: Susan
+    100032: twl_spotlight
+    400000: beer
+    400002: //RootNode
+    400004: Group 27
+    400006: handle
+    400008: Head
+    400010: Image 2
+    400012: mug
+    400014: mugCutOut
+    400016: mugCutOut 1
+    400018: mugCutOut 2
+    400020: mugCutOut 3
+    400022: mugCutOut 4
+    400024: mugCutOut 5
+    400026: mugCutOut 6
+    400028: mugCutOut 7
+    400030: Susan
+    400032: twl_spotlight
+    2300000: beer
+    2300002: //RootNode
+    2300004: Group 27
+    2300006: handle
+    2300008: Head
+    2300010: Image 2
+    2300012: mug
+    2300014: mugCutOut
+    2300016: mugCutOut 1
+    2300018: mugCutOut 2
+    2300020: mugCutOut 3
+    2300022: mugCutOut 4
+    2300024: mugCutOut 5
+    2300026: mugCutOut 6
+    2300028: mugCutOut 7
+    2300030: Susan
+    2300032: twl_spotlight
+    3300000: beer
+    3300002: //RootNode
+    3300004: Group 27
+    3300006: handle
+    3300008: Head
+    3300010: Image 2
+    3300012: mug
+    3300014: mugCutOut
+    3300016: mugCutOut 1
+    3300018: mugCutOut 2
+    3300020: mugCutOut 3
+    3300022: mugCutOut 4
+    3300024: mugCutOut 5
+    3300026: mugCutOut 6
+    3300028: mugCutOut 7
+    3300030: Susan
+    3300032: twl_spotlight
+    4300000: Mesh beer+mub
+    4300002: Mesh beer+mub
+    4300004: Mesh Head
+    4300006: Mesh beer
+    4300008: Mesh mug
+    4300010: Mesh mugCutOut
+    4300012: Mesh handle
+    4300014: Mesh Group 27
+    4300016: Mesh Susan
+    4300018: Mesh twl_spotlight
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
