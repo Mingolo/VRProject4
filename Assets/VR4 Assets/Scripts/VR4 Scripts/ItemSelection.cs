@@ -8,6 +8,7 @@ using System.Collections;
 public class ItemSelection : MonoBehaviour
 {
     public string lvlIndex;                   //change this in inspector to the correct scene you want to load up
+    public GameObject GlowSelection;
     public bool isOver = false;
     public bool isSelected = false;
    // public Renderer[] renderers;
@@ -41,14 +42,14 @@ public class ItemSelection : MonoBehaviour
     public Color selectionColor = new Color(0, 255, 55, 103);
     public Material m_Selected;                                  //SET IN INSPECTOR
     public Material m_Normal;
-
+    static bool isObjectSelected = false;
 
 
     public static float lookDist;
     // Use this for initialization
     public void Awake()
     {
-        localSound = this.GetComponent<AudioSource>();
+        localSound = GameObject.Find("DialogMgr").GetComponent<AudioSource>();
         sceneMgr = GameObject.Find("SceneMgr").GetComponent<MainSceneAudio>();
 
 
@@ -66,13 +67,14 @@ public class ItemSelection : MonoBehaviour
 
         if (isSelected) //the object is selected and waiting to be fired
         {
-            if (Input.GetButtonDown("Jump"))                                                                        //Change button mapping if desired, basically what happens when we select an item
+            if (Input.GetButtonDown("Jump") && !isObjectSelected)                                                                        //Change button mapping if desired, basically what happens when we select an item
             {
 
                 isTriggered = true;
                 FailSelection();
 
                 localSound.PlayOneShot(selectionDialogue, 1);
+                isObjectSelected = true;
                 
                 Invoke("LoadCutScene", transitionDelay);
                 
@@ -96,6 +98,7 @@ public class ItemSelection : MonoBehaviour
         if (!isTriggered && isOver && doOnce)
         {
             isSelected = true;                                                                                  //prevents latency in jump controls, can remove if you want to charge up for a jump
+            GlowSelection.GetComponent<SelectionGlow>().isSelected = true;
             StartCoroutine("GazeTimer");
             ChargeSelection();
             doOnce = false;
@@ -162,7 +165,8 @@ public class ItemSelection : MonoBehaviour
             if (charge >= maxCharge)
             {
                 isFullyCharged = true;
-               	this.GetComponent<Renderer>().material = m_Selected;
+               //	this.GetComponent<Renderer>().material = m_Selected;
+                
             }
            // print(this.gameObject.name + " is Selected");                             //print which object we selected
 
@@ -175,7 +179,7 @@ public class ItemSelection : MonoBehaviour
            // localSound.Stop();                                                        //might want to put in fail sounds later
            // localSound.PlayOneShot(sFailCharge, 1);
             isSelected = false;
-           
+            GlowSelection.GetComponent<SelectionGlow>().isSelected = false;
 
         StartCoroutine(DischargeLaser());
     }
@@ -199,7 +203,7 @@ public class ItemSelection : MonoBehaviour
             yield return new WaitForSeconds(chargeTime);
             charge = minCharge;
             currentGrain = minCharge;
-            this.GetComponent<Renderer>().material = m_Normal;
+           // this.GetComponent<Renderer>().material = m_Normal;
    }
 
     //this is  a basic timer script for objects
@@ -213,10 +217,11 @@ public class ItemSelection : MonoBehaviour
         {
             //getcompoinent<timer>().text = roundlength;
             gazeTime += 1;
-            if (gazeTime >= gazeDialogueDelay && !isObserved)
+            if (gazeTime >= gazeDialogueDelay && !isObserved && !isObjectSelected)
             {
                 print("sound Play");
                 isObserved = true;
+                localSound.Stop();
                 localSound.PlayOneShot(gazeDialogue, 1);
                 break;
             }

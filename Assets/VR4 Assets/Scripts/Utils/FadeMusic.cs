@@ -19,7 +19,9 @@ using UnityEngine;
 using System.Collections;
 [RequireComponent(typeof(AudioSource))]
 
-public class FadeMusic : MonoBehaviour {
+public class FadeMusic : MonoBehaviour 
+{
+    public float trackVolume = .85f;
 	private float tparam = 0;
 	public float fadeInSpeed;
 	public float fadeOutSpeed;
@@ -55,7 +57,7 @@ public class FadeMusic : MonoBehaviour {
 		{
 			fadeOutTunes = false;
 			tparam += Time.deltaTime * fadeInSpeed;
-			bgm.volume =  Mathf.Lerp (0, 1, tparam);
+			bgm.volume =  Mathf.Lerp (0, trackVolume, tparam);
 		}
 
 	}
@@ -66,7 +68,7 @@ public class FadeMusic : MonoBehaviour {
 		{
 			fadeInTunes = false;
 			tparam -= Time.deltaTime * fadeOutSpeed * 2.75f;
-			bgm.volume =  Mathf.Lerp (0, 1, tparam);
+			bgm.volume =  Mathf.Lerp (0, trackVolume, tparam);
 		}
 	}
 
