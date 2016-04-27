@@ -42,7 +42,8 @@ public class ItemSelection : MonoBehaviour
     public Color selectionColor = new Color(0, 255, 55, 103);
     public Material m_Selected;                                  //SET IN INSPECTOR
     public Material m_Normal;
-    static bool isObjectSelected = false;
+    public static bool isObjectSelected = false;
+    public static bool isAnythingGazed = false;
 
 
     public static float lookDist;
@@ -73,6 +74,7 @@ public class ItemSelection : MonoBehaviour
                 isTriggered = true;
                 FailSelection();
 
+                localSound.Stop();
                 localSound.PlayOneShot(selectionDialogue, 1);
                 isObjectSelected = true;
                 
@@ -217,13 +219,18 @@ public class ItemSelection : MonoBehaviour
         {
             //getcompoinent<timer>().text = roundlength;
             gazeTime += 1;
-            if (gazeTime >= gazeDialogueDelay && !isObserved && !isObjectSelected)
+            if (gazeTime >= gazeDialogueDelay && !isObserved && !isObjectSelected && this.gameObject.tag != "Phone")
             {
                 print("sound Play");
                 isObserved = true;
-                localSound.Stop();
-                localSound.PlayOneShot(gazeDialogue, 1);
-                break;
+                isAnythingGazed = true;
+                if (!isObjectSelected)
+                {
+                    localSound.Stop();
+                    localSound.PlayOneShot(gazeDialogue, 1);
+                }
+                else
+                    break;
             }
             yield return new WaitForSeconds(1);
         }

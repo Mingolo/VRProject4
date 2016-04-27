@@ -16,11 +16,12 @@ public class SelectionGlow : MonoBehaviour
     float tween = 0;
     bool doOnce = false;
     bool isFaded = false;     //initiates glowing
+
+    Color selectionColor;
 	// Use this for initialization
 	void Start () 
     {
-
-	
+        selectionColor = new Color(81, 231, 107, 255);
 	}
 	
 	// Update is called once per frame
@@ -30,6 +31,9 @@ public class SelectionGlow : MonoBehaviour
         {
             baseLight.intensity = baseIntensity;
             glowLight.intensity = midGlow + (glowAmplitude * Mathf.Sin(Time.time * glowFreq));
+
+            if (Input.GetButtonDown("Jump"))
+                glowLight.color = selectionColor;
         }
         else
         {
