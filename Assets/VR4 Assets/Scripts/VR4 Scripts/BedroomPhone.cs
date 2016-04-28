@@ -34,13 +34,13 @@ public class BedroomPhone : PhoneVibrate
                 {
                  
                     dialogMgr.PlayOneShot(ignoredAngry);                                            //define sounds in inspector
-                    dialogDelay = 5;                                                        
+                                                     
                 }
                 else
                 {
                 
                     dialogMgr.PlayOneShot(missedCallAngry);                                     
-                    dialogDelay = 10;                                                              //this is the duration of the clip before fading
+            
                 }
 
                 PlayerPrefs.DeleteAll();
