@@ -33,7 +33,7 @@ public class ItemSelection : MonoBehaviour
     bool isObserved = false;         
     public float vol = .9f;
     MainSceneAudio sceneMgr;
-    bool isTriggered = false;                 //disables all mechanics once an object is selected
+    public bool isTriggered = false;                 //disables all mechanics once an object is selected
     public bool __________________;
 
   

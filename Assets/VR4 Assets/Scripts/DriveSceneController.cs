@@ -39,7 +39,11 @@ public class DriveSceneController : MonoBehaviour
 				if (waitTime <= 0) 					//change to another scene after timer runs out (we wait for fade out to finish)
 				{
 					changeScene = false;
-					SceneManager.LoadScene (NextScene);
+                   
+                    if (PlayerPrefs.GetInt("Crash") == 1)
+                        SceneManager.LoadScene("HospitalHallway");
+                    else
+					    SceneManager.LoadScene (NextScene);
 				}
 			}
 		}
