@@ -5,9 +5,10 @@ public class BedroomPhone : PhoneVibrate
 {
     public float dialogDelay; //how long we wait to change to the ending scene
     public string lvlIndex;
-    public AudioClip drunkAngry;
-    public AudioClip soberAngry;
+    public AudioClip missedCallAngry;
+    public AudioClip ignoredAngry;
     MainSceneAudio sceneMgr;
+    bool doOnce = false;
     void Awake()
     {
         sceneMgr = GameObject.Find("SceneMgr").GetComponent<MainSceneAudio>();
@@ -16,29 +17,41 @@ public class BedroomPhone : PhoneVibrate
 	// Update is called once per frame
 	public override void Update () 
     {
-        if (ItemSelection.isObjectSelected && !ItemSelection.isAnythingGazed)
+        if (ItemSelection.isObjectSelected)
         {
             localSound.Stop();
             localSound.loop = false;
-            if (PlayerPrefs.HasKey("Answered"))
-            {
+        }
+
+        if (ItemSelection.isObjectSelected  && doOnce)
+        {
+          
+            doOnce = true;
+            localSound.Stop();
+            localSound.loop = false;
+
                 if (PlayerPrefs.GetInt("Answered") == 1)
                 {
-                    dialogMgr.PlayOneShot(drunkAngry);
-                    dialogDelay = 5;                                                        ///needs to be coded in laterS
+                 
+                    dialogMgr.PlayOneShot(ignoredAngry);                                            //define sounds in inspector
+                    dialogDelay = 5;                                                        
                 }
                 else
                 {
-                    dialogMgr.PlayOneShot(soberAngry);
-                    dialogDelay = 5;
+                
+                    dialogMgr.PlayOneShot(missedCallAngry);                                     
+                    dialogDelay = 10;                                                              //this is the duration of the clip before fading
                 }
 
                 PlayerPrefs.DeleteAll();
-                StartCoroutine(sceneMgr.LoadCutScene(lvlIndex));  
-            }
-            else
-                print("Remember to set up the Answered Key");
+                Invoke("LoadScene", dialogDelay);      
+
             
         }
 	}
+
+    void  LoadScene()
+    {
+        StartCoroutine(sceneMgr.LoadCutScene(lvlIndex));      
+    }
 }

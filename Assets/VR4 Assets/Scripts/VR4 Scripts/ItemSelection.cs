@@ -44,7 +44,7 @@ public class ItemSelection : MonoBehaviour
     public Material m_Normal;
     public static bool isObjectSelected = false;
     public static bool isAnythingGazed = false;
-
+    BedroomPhone bedPhone;                                      //check to see if this is present for Bedroom transitions
 
     public static float lookDist;
     // Use this for initialization
@@ -52,7 +52,7 @@ public class ItemSelection : MonoBehaviour
     {
         localSound = GameObject.Find("DialogMgr").GetComponent<AudioSource>();
         sceneMgr = GameObject.Find("SceneMgr").GetComponent<MainSceneAudio>();
-
+        bedPhone = this.GetComponent<BedroomPhone>();
 
     }
 
@@ -77,9 +77,19 @@ public class ItemSelection : MonoBehaviour
                 localSound.Stop();
                 localSound.PlayOneShot(selectionDialogue, 1);
                 isObjectSelected = true;
-                
-                Invoke("LoadCutScene", transitionDelay);
-                
+
+                if (bedPhone == null)
+                    Invoke("LoadCutScene", transitionDelay);
+                else
+                {
+                    if (PlayerPrefs.GetInt("Answered") == 1)
+                        bedPhone.dialogDelay = 8;                                                                                       //set this time later
+                    else
+                        bedPhone.dialogDelay = 16.9f;
+
+                    Invoke("LoadCutScene", bedPhone.dialogDelay);
+                }
+                    
                 
              
                 
