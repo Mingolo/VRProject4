@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using UnityStandardAssets.ImageEffects;
 
 public class DriveSceneController : MonoBehaviour 
 {
@@ -9,7 +10,6 @@ public class DriveSceneController : MonoBehaviour
 	public string NextScene;
 	private Fading fade;
 	private bool fadeNow;
-
 	void Awake()
 	{
 		fade = GetComponent<Fading>();

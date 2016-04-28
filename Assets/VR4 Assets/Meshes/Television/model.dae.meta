@@ -1,0 +1,290 @@
+fileFormatVersion: 2
+guid: f6c07f7651e3f4d429d9d51df352cc5b
+timeCreated: 1461836373
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: _42__Flat_Screen_TV
+    100002: bracket
+    100004: bracket 1
+    100006: ID113
+    100008: ID123
+    100010: ID129
+    100012: ID135
+    100014: ID143
+    100016: ID149
+    100018: ID162
+    100020: ID168
+    100022: ID174
+    100024: ID18
+    100026: ID18 1
+    100028: ID18 2
+    100030: ID18 3
+    100032: ID18 4
+    100034: ID18 5
+    100036: ID18 6
+    100038: ID18 7
+    100040: ID187
+    100042: ID193
+    100044: ID41
+    100046: ID41 1
+    100048: ID47
+    100050: ID47 1
+    100052: ID53
+    100054: ID53 1
+    100056: ID59
+    100058: ID59 1
+    100060: ID65
+    100062: ID65 1
+    100064: ID84
+    100066: ID90
+    100068: ID98
+    100070: instance_0
+    100072: instance_1
+    100074: instance_10
+    100076: instance_2
+    100078: instance_3
+    100080: instance_4
+    100082: instance_5
+    100084: instance_6
+    100086: instance_7
+    100088: instance_8
+    100090: instance_9
+    100092: Last Saved SketchUp View
+    100094: //RootNode
+    100096: tv_button
+    100098: tv_button 1
+    100100: tv_button 2
+    100102: tv_button 3
+    100104: tv_button 4
+    100106: tv_button 5
+    100108: tv_button 6
+    100110: tv_button 7
+    400000: _42__Flat_Screen_TV
+    400002: bracket
+    400004: bracket 1
+    400006: ID113
+    400008: ID123
+    400010: ID129
+    400012: ID135
+    400014: ID143
+    400016: ID149
+    400018: ID162
+    400020: ID168
+    400022: ID174
+    400024: ID18
+    400026: ID18 1
+    400028: ID18 2
+    400030: ID18 3
+    400032: ID18 4
+    400034: ID18 5
+    400036: ID18 6
+    400038: ID18 7
+    400040: ID187
+    400042: ID193
+    400044: ID41
+    400046: ID41 1
+    400048: ID47
+    400050: ID47 1
+    400052: ID53
+    400054: ID53 1
+    400056: ID59
+    400058: ID59 1
+    400060: ID65
+    400062: ID65 1
+    400064: ID84
+    400066: ID90
+    400068: ID98
+    400070: instance_0
+    400072: instance_1
+    400074: instance_10
+    400076: instance_2
+    400078: instance_3
+    400080: instance_4
+    400082: instance_5
+    400084: instance_6
+    400086: instance_7
+    400088: instance_8
+    400090: instance_9
+    400092: Last Saved SketchUp View
+    400094: //RootNode
+    400096: tv_button
+    400098: tv_button 1
+    400100: tv_button 2
+    400102: tv_button 3
+    400104: tv_button 4
+    400106: tv_button 5
+    400108: tv_button 6
+    400110: tv_button 7
+    2300000: _42__Flat_Screen_TV
+    2300002: bracket
+    2300004: bracket 1
+    2300006: ID113
+    2300008: ID123
+    2300010: ID129
+    2300012: ID135
+    2300014: ID143
+    2300016: ID149
+    2300018: ID162
+    2300020: ID168
+    2300022: ID174
+    2300024: ID18
+    2300026: ID18 1
+    2300028: ID18 2
+    2300030: ID18 3
+    2300032: ID18 4
+    2300034: ID18 5
+    2300036: ID18 6
+    2300038: ID18 7
+    2300040: ID187
+    2300042: ID41
+    2300044: ID41 1
+    2300046: ID47
+    2300048: ID47 1
+    2300050: ID53
+    2300052: ID53 1
+    2300054: ID59
+    2300056: ID59 1
+    2300058: ID65
+    2300060: ID65 1
+    2300062: ID84
+    2300064: ID90
+    2300066: ID98
+    2300068: tv_button
+    2300070: tv_button 1
+    2300072: tv_button 2
+    2300074: tv_button 3
+    2300076: tv_button 4
+    2300078: tv_button 5
+    2300080: tv_button 6
+    2300082: tv_button 7
+    3300000: _42__Flat_Screen_TV
+    3300002: bracket
+    3300004: bracket 1
+    3300006: ID113
+    3300008: ID123
+    3300010: ID129
+    3300012: ID135
+    3300014: ID143
+    3300016: ID149
+    3300018: ID162
+    3300020: ID168
+    3300022: ID174
+    3300024: ID18
+    3300026: ID18 1
+    3300028: ID18 2
+    3300030: ID18 3
+    3300032: ID18 4
+    3300034: ID18 5
+    3300036: ID18 6
+    3300038: ID18 7
+    3300040: ID187
+    3300042: ID41
+    3300044: ID41 1
+    3300046: ID47
+    3300048: ID47 1
+    3300050: ID53
+    3300052: ID53 1
+    3300054: ID59
+    3300056: ID59 1
+    3300058: ID65
+    3300060: ID65 1
+    3300062: ID84
+    3300064: ID90
+    3300066: ID98
+    3300068: tv_button
+    3300070: tv_button 1
+    3300072: tv_button 2
+    3300074: tv_button 3
+    3300076: tv_button 4
+    3300078: tv_button 5
+    3300080: tv_button 6
+    3300082: tv_button 7
+    4300000: _42__Flat_Screen_TV
+    4300002: ID84
+    4300004: ID90
+    4300006: ID98
+    4300008: ID113
+    4300010: ID123
+    4300012: ID129
+    4300014: ID135
+    4300016: ID143
+    4300018: ID149
+    4300020: ID162
+    4300022: ID168
+    4300024: ID174
+    4300026: ID187
+    4300028: tv_button
+    4300030: ID18
+    4300032: bracket
+    4300034: ID41
+    4300036: ID47
+    4300038: ID53
+    4300040: ID59
+    4300042: ID65
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

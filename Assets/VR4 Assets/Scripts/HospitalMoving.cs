@@ -6,7 +6,7 @@ public class HospitalMoving : MonoBehaviour
     public float speed = 3;
     Vector3 moveAmount;
     Vector3 forwardDir;
-    Rigidbody body;
+    public Rigidbody body;
     bool isMoving = false;
 
 	// Use this for initialization
@@ -14,6 +14,7 @@ public class HospitalMoving : MonoBehaviour
     {
         body = this.GetComponent<Rigidbody>();
         forwardDir = -Vector3.forward;
+        isMoving = true;
 	}
 	
 	// Update is called once per frame
