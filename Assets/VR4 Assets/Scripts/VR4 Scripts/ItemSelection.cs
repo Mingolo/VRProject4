@@ -48,7 +48,7 @@ public class ItemSelection : MonoBehaviour
 
     public static float lookDist;
     // Use this for initialization
-    public void Awake()
+    public void Start()
     {
         localSound = GameObject.Find("DialogMgr").GetComponent<AudioSource>();
         sceneMgr = GameObject.Find("SceneMgr").GetComponent<MainSceneAudio>();
@@ -56,10 +56,7 @@ public class ItemSelection : MonoBehaviour
 
     }
 
-    void Start()
-    {
-        
-    }
+
 
     // Update is called once per frame
     public virtual void Update()

@@ -12,7 +12,7 @@ public class PhoneVibrate : MonoBehaviour
     public float idleDelay = 3;
     
 	// Use this for initialization
-	void Start () 
+	void Awake () 
     {
         GameObject dialog = GameObject.Find("DialogMgr");
         dialogMgr = dialog.GetComponent<AudioSource>();
